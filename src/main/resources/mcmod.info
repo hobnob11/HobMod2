@@ -1,0 +1,21 @@
+[
+{
+"modid": "HobMod2",
+"name": "HobMod 2.0",
+"description": "Made by hoobnooob to do many things, all of them vague and confusing",
+"version": "1.0",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authorList": [
+"Hobnob","Pahimar"
+],
+"credits": "Pahimar is the Pahi-man.",
+"logoFile": "",
+"screenshots": [
+],
+"parent":"",
+"dependencies": [
+]
+}
+]
