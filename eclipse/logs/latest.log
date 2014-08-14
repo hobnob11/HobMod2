@@ -1,11 +1,66 @@
-[01:52:53] [main/INFO]: Setting user: ForgeDevName
-[01:52:54] [Client thread/INFO]: LWJGL Version: 2.9.1
-[01:52:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0
-[01:53:00] [Sound Library Loader/INFO]: Sound engine started
-[01:53:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[01:53:01] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[01:53:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0
-[01:53:02] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[01:53:02] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[01:53:03] [Sound Library Loader/INFO]: Sound engine started
-[01:53:42] [Client thread/INFO]: Stopping!
+[11:40:18] [main/INFO]: Setting user: ForgeDevName
+[11:40:18] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:40:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0
+[11:40:25] [Sound Library Loader/INFO]: Sound engine started
+[11:40:27] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:40:27] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:40:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0
+[11:40:27] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:40:27] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:40:28] [Sound Library Loader/INFO]: Sound engine started
+[11:40:35] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[11:40:35] [Server thread/INFO]: Generating keypair
+[11:40:35] [Server thread/INFO]: Preparing start region for level 0
+[11:40:36] [Server thread/INFO]: Changing view distance to 12, from 10
+[11:40:38] [Server thread/INFO]: ForgeDevName[local:E:5d9eac57] logged in with entity id 151 at (-130.80650188641252, 4.0, 696.571704723383)
+[11:40:38] [Server thread/INFO]: ForgeDevName joined the game
+[11:40:40] [Server thread/INFO]: Saving and pausing game...
+[11:40:40] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:40:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:40:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:40:41] [Server thread/INFO]: Stopping server
+[11:40:41] [Server thread/INFO]: Saving players
+[11:40:41] [Server thread/INFO]: Saving worlds
+[11:40:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:40:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:40:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:40:44] [Client thread/INFO]: Deleting level New World
+[11:40:44] [Client thread/INFO]: Attempt 1...
+[11:40:52] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[11:40:52] [Server thread/INFO]: Generating keypair
+[11:40:52] [Server thread/INFO]: Converting map!
+[11:40:52] [Server thread/INFO]: Scanning folders...
+[11:40:52] [Server thread/INFO]: Total conversion count is 0
+[11:40:53] [Server thread/INFO]: Preparing start region for level 0
+[11:40:53] [Server thread/INFO]: Changing view distance to 12, from 10
+[11:40:53] [Server thread/INFO]: ForgeDevName[local:E:d6ad88e8] logged in with entity id 8466 at (403.5, 4.0, -200.5)
+[11:40:53] [Server thread/INFO]: ForgeDevName joined the game
+[11:41:03] [Client thread/INFO]: [CHAT] HobMod2:flag, HobMod2:mapleLeaf
+[11:41:04] [Client thread/INFO]: [CHAT] HobMod2:flag, HobMod2:mapleLeaf
+[11:41:04] [Client thread/INFO]: [CHAT] HobMod2:flag, HobMod2:mapleLeaf
+[11:41:05] [Server thread/INFO]: [ForgeDevName: Given [Pahimar's Flag] * 1 to ForgeDevName]
+[11:41:05] [Client thread/INFO]: [CHAT] Given [Pahimar's Flag] * 1 to ForgeDevName
+[11:41:09] [Client thread/INFO]: [CHAT] HobMod2:flag, HobMod2:mapleLeaf
+[11:41:10] [Client thread/INFO]: [CHAT] HobMod2:flag, HobMod2:mapleLeaf
+[11:41:10] [Server thread/INFO]: [ForgeDevName: Given [Pahimar's Maple Leaf] * 1 to ForgeDevName]
+[11:41:10] [Client thread/INFO]: [CHAT] Given [Pahimar's Maple Leaf] * 1 to ForgeDevName
+[11:41:17] [Server thread/INFO]: ForgeDevName has just earned the achievement [Taking Inventory]
+[11:41:17] [Client thread/INFO]: [CHAT] ForgeDevName has just earned the achievement [Taking Inventory]
+[11:41:27] [Client thread/INFO]: [CHAT] minecraft:map, minecraft:magma_cream
+[11:41:27] [Server thread/INFO]: [ForgeDevName: Given [Empty Map] * 1 to ForgeDevName]
+[11:41:27] [Client thread/INFO]: [CHAT] Given [Empty Map] * 1 to ForgeDevName
+[11:41:40] [Server thread/INFO]: [ForgeDevName: Given [Pahimar's Flag] * 1 to ForgeDevName]
+[11:41:40] [Client thread/INFO]: [CHAT] Given [Pahimar's Flag] * 1 to ForgeDevName
+[11:41:45] [Server thread/INFO]: [ForgeDevName: Given [Pahimar's Flag] * 20 to ForgeDevName]
+[11:41:45] [Client thread/INFO]: [CHAT] Given [Pahimar's Flag] * 20 to ForgeDevName
+[11:42:01] [Server thread/INFO]: Saving and pausing game...
+[11:42:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:42:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:42:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:42:01] [Server thread/INFO]: Stopping server
+[11:42:01] [Server thread/INFO]: Saving players
+[11:42:01] [Server thread/INFO]: Saving worlds
+[11:42:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:42:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:42:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:42:02] [Client thread/INFO]: Stopping!

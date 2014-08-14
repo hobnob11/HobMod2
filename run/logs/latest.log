@@ -1,0 +1,7 @@
+[03:26:09] [main/INFO]: Logging in with username & password
+[03:26:13] [main/INFO]: Setting user: hobnob11
+[03:26:14] [Client thread/INFO]: LWJGL Version: 2.9.1
+[03:26:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0
+[03:26:20] [Sound Library Loader/INFO]: Sound engine started
+[03:26:22] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[03:26:22] [Client thread/INFO]: Created: 256x256 textures/items-atlas

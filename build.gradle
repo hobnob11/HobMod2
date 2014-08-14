@@ -22,8 +22,7 @@ group= "gy.fox.hobnob.HobMod2" // http://maven.apache.org/guides/mini/guide-nami
 archivesBaseName = "HobMod2"
 
 minecraft {
-    version = "1.7.10-10.13.0.1202"
-    assetDir = "eclipse/assets"
+    version = "1.7.10-10.13.0.1205"
 }
 
 dependencies {
