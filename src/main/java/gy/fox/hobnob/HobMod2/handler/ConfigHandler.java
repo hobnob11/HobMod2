@@ -10,7 +10,8 @@ import java.io.File;
 public class ConfigHandler {
 
     public static Configuration configuration;
-    public static boolean testValue = false;
+    public static boolean mapleCraftingToggle = false;
+    public static float mapleDropChance = 0.9f;
 
     public static void init(File configFile)
     {
@@ -32,7 +33,8 @@ public class ConfigHandler {
 
     private static void loadConfiguration()
     {
-        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL,false,"This is an example configuration value");
+        mapleCraftingToggle = configuration.getBoolean("mapleCraftingToggle", Configuration.CATEGORY_GENERAL,false,"If the maple leaf can be crafted via 5 saplings in a cross shape");
+        mapleDropChance = configuration.getFloat("mapleDropChance", Configuration.CATEGORY_GENERAL,0.1f,0.0f,1.0f,"How often the maple leaf drops from leaf blocks, 0.0f is never, 1.0f is always");
 
         if(configuration.hasChanged())
         {
