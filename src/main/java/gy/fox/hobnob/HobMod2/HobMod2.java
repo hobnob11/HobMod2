@@ -7,12 +7,14 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import gy.fox.hobnob.HobMod2.handler.ConfigHandler;
+import gy.fox.hobnob.HobMod2.handler.HM2EventHandler;
 import gy.fox.hobnob.HobMod2.init.ModBlocks;
 import gy.fox.hobnob.HobMod2.init.ModItems;
 import gy.fox.hobnob.HobMod2.init.Recipes;
 import gy.fox.hobnob.HobMod2.proxy.IProxy;
 import gy.fox.hobnob.HobMod2.reference.Reference;
 import gy.fox.hobnob.HobMod2.utility.LogHelper;
+import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid= Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.VERSION, guiFactory=Reference.GUI_FACTORY_CLASS)
 
@@ -30,11 +32,12 @@ public class HobMod2
     {
         ConfigHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigHandler());
-        LogHelper.info("Pre initialization Complete!");
+        MinecraftForge.EVENT_BUS.register(new HM2EventHandler());
 
         ModItems.init();
-
         ModBlocks.init();
+
+        LogHelper.info("Pre initialization Complete!");
 
     }
 

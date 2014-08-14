@@ -1,7 +1,29 @@
-[03:26:09] [main/INFO]: Logging in with username & password
-[03:26:13] [main/INFO]: Setting user: hobnob11
-[03:26:14] [Client thread/INFO]: LWJGL Version: 2.9.1
-[03:26:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0
-[03:26:20] [Sound Library Loader/INFO]: Sound engine started
-[03:26:22] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[03:26:22] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[06:49:43] [main/INFO]: Logging in with username & password
+[06:49:47] [main/INFO]: Setting user: hobnob11
+[06:49:48] [Client thread/INFO]: LWJGL Version: 2.9.1
+[06:49:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0
+[06:49:54] [Sound Library Loader/INFO]: Sound engine started
+[06:49:55] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[06:49:55] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[06:49:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0
+[06:49:55] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[06:49:55] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[06:49:56] [Sound Library Loader/INFO]: Sound engine started
+[06:50:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[06:50:02] [Server thread/INFO]: Generating keypair
+[06:50:03] [Server thread/INFO]: Preparing start region for level 0
+[06:50:03] [Server thread/INFO]: Changing view distance to 12, from 10
+[06:50:03] [Server thread/INFO]: hobnob11[local:E:8091f318] logged in with entity id 135 at (1094.426687978527, 4.0, -831.9971875276228)
+[06:50:03] [Server thread/INFO]: hobnob11 joined the game
+[06:50:10] [Client thread/INFO]: [CHAT] /time <set|add> <value>
+[06:50:15] [Server thread/INFO]: [hobnob11: Set the time to 12]
+[06:50:15] [Client thread/INFO]: [CHAT] Set the time to 12
+[06:50:18] [Server thread/INFO]: [hobnob11: Set the time to 6]
+[06:50:18] [Client thread/INFO]: [CHAT] Set the time to 6
+[06:50:21] [Server thread/INFO]: [hobnob11: Set the time to 24]
+[06:50:21] [Client thread/INFO]: [CHAT] Set the time to 24
+[06:50:25] [Server thread/INFO]: [hobnob11: Set the time to 2400]
+[06:50:25] [Client thread/INFO]: [CHAT] Set the time to 2400
+[06:50:40] [Client thread/INFO]: [CHAT] commandBlockOutput, doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops, keepInventory, mobGriefing, naturalRegeneration
+[06:50:50] [Server thread/INFO]: [hobnob11: Game rule has been updated]
+[06:50:50] [Client thread/INFO]: [CHAT] Game rule has been updated
