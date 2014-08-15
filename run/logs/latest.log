@@ -1,28 +1,28 @@
-[08:13:03] [main/INFO]: Logging in with username & password
-[08:13:10] [main/INFO]: Setting user: hobnob11
-[08:13:11] [Client thread/INFO]: LWJGL Version: 2.9.1
-[08:13:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0
-[08:13:17] [Sound Library Loader/INFO]: Sound engine started
-[08:13:18] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[08:13:19] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[08:13:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0
-[08:13:19] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[08:13:19] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[08:13:20] [Sound Library Loader/INFO]: Sound engine started
-[08:13:30] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[08:13:30] [Server thread/INFO]: Generating keypair
-[08:13:30] [Server thread/INFO]: Preparing start region for level 0
-[08:13:31] [Server thread/INFO]: Changing view distance to 12, from 10
-[08:13:31] [Server thread/INFO]: hobnob11[local:E:9c6ac064] logged in with entity id 137 at (1093.7401070407063, 4.0, -828.5250886185514)
-[08:13:31] [Server thread/INFO]: hobnob11 joined the game
-[08:14:38] [Server thread/INFO]: Saving and pausing game...
-[08:14:38] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[08:14:38] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[08:14:38] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[08:14:39] [Server thread/INFO]: Stopping server
-[08:14:39] [Server thread/INFO]: Saving players
-[08:14:39] [Server thread/INFO]: Saving worlds
-[08:14:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[08:14:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[08:14:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[08:14:40] [Client thread/INFO]: Stopping!
+[01:31:34] [main/INFO]: Logging in with username & password
+[01:31:38] [main/INFO]: Setting user: hobnob11
+[01:31:39] [Client thread/INFO]: LWJGL Version: 2.9.1
+[01:31:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[01:31:47] [Sound Library Loader/INFO]: Sound engine started
+[01:31:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[01:31:49] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[01:31:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[01:31:49] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[01:31:50] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[01:31:51] [Sound Library Loader/INFO]: Sound engine started
+[01:32:09] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[01:32:09] [Server thread/INFO]: Generating keypair
+[01:32:09] [Server thread/INFO]: Preparing start region for level 0
+[01:32:10] [Server thread/INFO]: Changing view distance to 12, from 10
+[01:32:10] [Server thread/INFO]: hobnob11[local:E:85fc3b6f] logged in with entity id 135 at (1103.0344372566833, 4.0, -839.1177002238268)
+[01:32:10] [Server thread/INFO]: hobnob11 joined the game
+[01:32:35] [Server thread/INFO]: Saving and pausing game...
+[01:32:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:32:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:32:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:32:35] [Server thread/INFO]: Stopping server
+[01:32:35] [Server thread/INFO]: Saving players
+[01:32:35] [Server thread/INFO]: Saving worlds
+[01:32:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:32:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:32:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:32:38] [Client thread/INFO]: Stopping!

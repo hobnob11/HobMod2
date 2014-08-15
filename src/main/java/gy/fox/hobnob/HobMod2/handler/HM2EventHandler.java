@@ -17,7 +17,7 @@ public class HM2EventHandler {
         if(event.block == Blocks.leaves || event.block == Blocks.leaves2) {
 
             //Drops
-            if(Math.random()<=ConfigHandler.mapleDropChance) {
+            if(Math.random()<=ConfigHandler.mapleDropChance && !event.world.isRemote) {
                 event.world.spawnEntityInWorld(new EntityItem(event.world, event.x, event.y, event.z, new ItemStack(ModItems.mapleLeaf)));
             }
 
