@@ -1,19 +1,21 @@
-[11:56:03] [main/INFO]: Logging in with username & password
-[11:56:07] [main/INFO]: Setting user: hobnob11
-[11:56:08] [Client thread/INFO]: LWJGL Version: 2.9.1
-[11:56:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
-[11:56:15] [Sound Library Loader/INFO]: Sound engine started
-[11:56:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[11:56:17] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[11:56:17] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
-[11:56:18] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[11:56:18] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[11:56:19] [Sound Library Loader/INFO]: Sound engine started
-[11:56:22] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[11:56:22] [Server thread/INFO]: Generating keypair
-[11:56:31] [Server thread/INFO]: Preparing start region for level 0
-[11:56:32] [Server thread/INFO]: Changing view distance to 12, from 10
-[11:56:32] [Server thread/INFO]: hobnob11[local:E:0918a1d9] logged in with entity id 155 at (1083.7831872050133, 4.0, -836.2020123438056)
-[11:56:32] [Server thread/INFO]: hobnob11 joined the game
-[11:56:49] [Server thread/INFO]: <hobnob11> asdf
-[11:56:49] [Client thread/INFO]: [CHAT] <hobnob11> asdf
+[13:07:05] [main/INFO]: Logging in with username & password
+[13:07:09] [main/INFO]: Setting user: hobnob11
+[13:07:10] [Client thread/INFO]: LWJGL Version: 2.9.1
+[13:07:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[13:07:17] [Sound Library Loader/INFO]: Sound engine started
+[13:07:18] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[13:07:18] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[13:07:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[13:07:19] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[13:07:20] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[13:07:20] [Sound Library Loader/INFO]: Sound engine started
+[13:07:28] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[13:07:28] [Server thread/INFO]: Generating keypair
+[13:07:28] [Server thread/INFO]: Preparing start region for level 0
+[13:07:28] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:07:29] [Server thread/INFO]: hobnob11[local:E:e6965fc7] logged in with entity id 143 at (1082.4791985984334, 4.0, -837.1793508928781)
+[13:07:29] [Server thread/INFO]: hobnob11 joined the game
+[13:10:06] [Server thread/INFO]: Saving and pausing game...
+[13:10:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:10:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:10:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End

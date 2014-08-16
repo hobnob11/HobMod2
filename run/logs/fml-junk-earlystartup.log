@@ -350,3 +350,27 @@
 [11:56:04] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [11:56:04] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [11:56:04] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[12:08:14] [main/INFO] [GradleStart]: username: williamhobson62@aol.com
+[12:08:14] [main/INFO] [GradleStart]: Extra: []
+[12:08:14] [main/INFO] [GradleStart]: Password found, attempting login
+[12:08:18] [main/INFO] [GradleStart]: Login Succesful!
+[12:08:18] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, hobnob11, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --uuid, 0e919cd15c0d4856bce8d36fc1816bad, --assetsDir, C:/Users/Hobnob/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[12:08:18] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[12:08:18] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[12:08:18] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[12:59:51] [main/INFO] [GradleStart]: username: williamhobson62@aol.com
+[12:59:51] [main/INFO] [GradleStart]: Extra: []
+[12:59:51] [main/INFO] [GradleStart]: Password found, attempting login
+[12:59:53] [main/INFO] [GradleStart]: Login Succesful!
+[12:59:53] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, hobnob11, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --uuid, 0e919cd15c0d4856bce8d36fc1816bad, --assetsDir, C:/Users/Hobnob/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[12:59:53] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[12:59:53] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[12:59:53] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[13:07:05] [main/INFO] [GradleStart]: username: williamhobson62@aol.com
+[13:07:05] [main/INFO] [GradleStart]: Extra: []
+[13:07:05] [main/INFO] [GradleStart]: Password found, attempting login
+[13:07:06] [main/INFO] [GradleStart]: Login Succesful!
+[13:07:06] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, hobnob11, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --uuid, 0e919cd15c0d4856bce8d36fc1816bad, --assetsDir, C:/Users/Hobnob/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[13:07:06] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[13:07:06] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[13:07:06] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
