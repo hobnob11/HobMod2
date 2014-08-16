@@ -1,9 +1,9 @@
-[08:32:46] [main/INFO]: Logging in with username & password
-[08:32:50] [main/INFO]: Setting user: hobnob11
-[08:32:51] [Client thread/INFO]: LWJGL Version: 2.9.1
-[08:32:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
-[08:32:59] [Sound Library Loader/INFO]: Sound engine started
-[08:33:00] [Client thread/ERROR]: Using missing texture, unable to load hobmod2:textures/blocks/bakercat.png
+[08:38:21] [main/INFO]: Logging in with username & password
+[08:38:26] [main/INFO]: Setting user: hobnob11
+[08:38:27] [Client thread/INFO]: LWJGL Version: 2.9.1
+[08:38:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[08:38:33] [Sound Library Loader/INFO]: Sound engine started
+[08:38:34] [Client thread/ERROR]: Using missing texture, unable to load hobmod2:textures/blocks/bakercat.png
 java.io.FileNotFoundException: hobmod2:textures/blocks/bakercat.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -33,11 +33,11 @@ java.io.FileNotFoundException: hobmod2:textures/blocks/bakercat.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[08:33:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[08:33:01] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[08:33:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
-[08:33:01] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[08:33:02] [Client thread/ERROR]: Using missing texture, unable to load hobmod2:textures/blocks/bakercat.png
+[08:38:35] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[08:38:35] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[08:38:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[08:38:36] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[08:38:36] [Client thread/ERROR]: Using missing texture, unable to load hobmod2:textures/blocks/bakercat.png
 java.io.FileNotFoundException: hobmod2:textures/blocks/bakercat.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -70,43 +70,36 @@ java.io.FileNotFoundException: hobmod2:textures/blocks/bakercat.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[08:33:02] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[08:33:03] [Sound Library Loader/INFO]: Sound engine started
-[08:33:07] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[08:33:07] [Server thread/INFO]: Generating keypair
-[08:33:07] [Server thread/INFO]: Preparing start region for level 0
-[08:33:07] [Server thread/INFO]: Changing view distance to 12, from 10
-[08:33:08] [Server thread/INFO]: hobnob11[local:E:a2903209] logged in with entity id 135 at (1086.4670480166305, 4.0, -829.5944866461814)
-[08:33:08] [Server thread/INFO]: hobnob11 joined the game
-[08:33:08] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@f83dda[id=0e919cd1-5c0d-4856-bce8-d36fc1816bad,name=hobnob11,properties={},legacy=false]
-com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:53) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:50) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:148) [YggdrasilMinecraftSessionService.class:?]
-	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:133) [SkinManager$3.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [?:1.7.0_67]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [?:1.7.0_67]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_67]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_67]
-	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_67]
-[08:33:15] [Client thread/INFO]: [CHAT] HobMod2:flag, HobMod2:bakercat, HobMod2:mapleLeaf
-[08:33:15] [Client thread/INFO]: [CHAT] HobMod2:flag, HobMod2:bakercat, HobMod2:mapleLeaf
-[08:33:16] [Server thread/INFO]: [hobnob11: Given [Baker Cat] * 1 to hobnob11]
-[08:33:16] [Client thread/INFO]: [CHAT] Given [Baker Cat] * 1 to hobnob11
-[08:34:34] [Client thread/INFO]: Stopping!
-[08:34:34] [Server thread/INFO]: Stopping server
-[08:34:34] [Server thread/INFO]: Saving players
-[08:34:34] [Server thread/INFO]: Saving worlds
-[08:34:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[08:34:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[08:34:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:38:36] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[08:38:37] [Sound Library Loader/INFO]: Sound engine started
+[08:39:16] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[08:39:16] [Server thread/INFO]: Generating keypair
+[08:39:16] [Server thread/INFO]: Preparing start region for level 0
+[08:39:17] [Server thread/INFO]: Changing view distance to 12, from 10
+[08:39:20] [Server thread/INFO]: Stopping server
+[08:39:20] [Server thread/INFO]: Saving players
+[08:39:20] [Server thread/INFO]: Saving worlds
+[08:39:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:39:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[08:39:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:39:21] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[08:39:21] [Server thread/INFO]: Generating keypair
+[08:39:21] [Server thread/INFO]: Preparing start region for level 0
+[08:39:21] [Server thread/INFO]: Changing view distance to 12, from 10
+[08:39:21] [Server thread/INFO]: hobnob11[local:E:e055a8df] logged in with entity id 270 at (1086.4601518667978, 4.0, -830.6671291874425)
+[08:39:21] [Server thread/INFO]: hobnob11 joined the game
+[08:41:58] [Client thread/INFO]: [CHAT] HobMod2:flag, HobMod2:bakercat, HobMod2:mapleLeaf
+[08:41:59] [Client thread/INFO]: [CHAT] HobMod2:flag, HobMod2:bakercat, HobMod2:mapleLeaf
+[08:41:59] [Server thread/INFO]: [hobnob11: Given [Baker Cat] * 1 to hobnob11]
+[08:41:59] [Client thread/INFO]: [CHAT] Given [Baker Cat] * 1 to hobnob11
+[08:42:07] [Server thread/INFO]: Saving and pausing game...
+[08:42:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:42:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[08:42:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:43:14] [Server thread/INFO]: Stopping server
+[08:43:14] [Server thread/INFO]: Saving players
+[08:43:14] [Server thread/INFO]: Saving worlds
+[08:43:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:43:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[08:43:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:43:15] [Client thread/INFO]: Stopping!

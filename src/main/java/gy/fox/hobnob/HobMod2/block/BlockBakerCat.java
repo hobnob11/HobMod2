@@ -9,7 +9,7 @@ public class BlockBakerCat extends BlockHM2 {
         super();
         this.setBlockName("bakercat");
         this.setStepSound(Block.soundTypeMetal);
-        this.setBlockTextureName("HobMod2:flag.png");
+        this.setBlockTextureName("hobmod2:flag");
     }
 
 }
