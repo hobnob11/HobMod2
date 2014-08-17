@@ -1,21 +1,141 @@
-[08:51:57] [main/INFO]: Logging in with username & password
-[08:52:01] [main/INFO]: Setting user: hobnob11
-[08:52:02] [Client thread/INFO]: LWJGL Version: 2.9.1
-[08:52:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
-[08:52:09] [Sound Library Loader/INFO]: Sound engine started
-[08:52:11] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[08:52:11] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[08:52:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
-[08:52:12] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[08:52:12] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[08:52:13] [Sound Library Loader/INFO]: Sound engine started
-[08:52:26] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[08:52:26] [Server thread/INFO]: Generating keypair
-[08:52:26] [Server thread/INFO]: Preparing start region for level 0
-[08:52:27] [Server thread/INFO]: Changing view distance to 12, from 10
-[08:52:27] [Server thread/INFO]: hobnob11[local:E:c5ff4cd9] logged in with entity id 135 at (1086.519044590348, 4.0, -843.5476300316833)
-[08:52:27] [Server thread/INFO]: hobnob11 joined the game
-[08:52:28] [Server thread/INFO]: Saving and pausing game...
-[08:52:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[08:52:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[08:52:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[10:03:57] [main/INFO]: Logging in with username & password
+[10:04:01] [main/INFO]: Setting user: hobnob11
+[10:04:02] [Client thread/INFO]: LWJGL Version: 2.9.1
+[10:04:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[10:04:09] [Sound Library Loader/INFO]: Sound engine started
+[10:04:10] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[10:04:11] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[10:04:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[10:04:11] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[10:04:12] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[10:04:13] [Sound Library Loader/INFO]: Sound engine started
+[10:04:20] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[10:04:20] [Server thread/INFO]: Generating keypair
+[10:04:20] [Server thread/INFO]: Preparing start region for level 0
+[10:04:21] [Server thread/INFO]: Changing view distance to 12, from 10
+[10:04:21] [Server thread/INFO]: hobnob11[local:E:c362fc4d] logged in with entity id 137 at (1080.682126460209, 4.0, -837.1990379114854)
+[10:04:21] [Server thread/INFO]: hobnob11 joined the game
+[10:07:29] [Server thread/INFO]: Saving and pausing game...
+[10:07:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[10:07:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[10:07:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[10:08:41] [Server thread/INFO]: Saving and pausing game...
+[10:08:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[10:08:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[10:08:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[10:08:42] [Server thread/INFO]: Stopping server
+[10:08:42] [Server thread/INFO]: Saving players
+[10:08:42] [Server thread/INFO]: Saving worlds
+[10:08:42] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[10:08:42] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[10:08:42] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[10:09:33] [Client thread/INFO]: Stopping!
+necraft server version 1.7.10
+[10:09:08] [Server thread/ERROR]: Encountered an unexpected exception
+cpw.mods.fml.common.LoaderException: java.lang.NoClassDefFoundError: net/minecraft/client/audio/ISound
+	at cpw.mods.fml.common.LoadController.transition(LoadController.java:162) ~[LoadController.class:?]
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:515) ~[Loader.class:?]
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:88) ~[FMLServerHandler.class:?]
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:313) ~[FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:120) ~[DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:455) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:762) [MinecraftServer$2.class:?]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/audio/ISound
+	at gy.fox.hobnob.HobMod2.HobMod2.preInit(HobMod2.java:39) ~[HobMod2.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:513) ~[FMLModContainer.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:208) ~[LoadController.class:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:187) ~[LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:118) ~[LoadController.class:?]
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:513) ~[Loader.class:?]
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.audio.ISound
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:188) ~[launchwrapper-1.9.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425) ~[?:1.7.0_67]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358) ~[?:1.7.0_67]
+	at gy.fox.hobnob.HobMod2.HobMod2.preInit(HobMod2.java:39) ~[HobMod2.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:513) ~[FMLModContainer.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:208) ~[LoadController.class:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:187) ~[LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:118) ~[LoadController.class:?]
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:513) ~[Loader.class:?]
+	... 5 more
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/audio/ISound for invalid side SERVER
+	at cpw.mods.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:50) ~[forgeSrc-1.7.10-10.13.0.1205.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:276) ~[launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:174) ~[launchwrapper-1.9.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425) ~[?:1.7.0_67]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358) ~[?:1.7.0_67]
+	at gy.fox.hobnob.HobMod2.HobMod2.preInit(HobMod2.java:39) ~[HobMod2.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:513) ~[FMLModContainer.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:208) ~[LoadController.class:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:187) ~[LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:118) ~[LoadController.class:?]
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:513) ~[Loader.class:?]
+	... 5 more
+[10:09:08] [Server thread/ERROR]: This crash report has been saved to: D:\Modding\HobMod2\run\.\crash-reports\crash-2014-08-17_10.09.08-server.txt

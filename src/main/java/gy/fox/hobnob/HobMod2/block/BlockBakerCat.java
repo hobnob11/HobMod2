@@ -6,10 +6,13 @@ import cpw.mods.fml.common.eventhandler.Cancelable;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import gy.fox.hobnob.HobMod2.init.ModItems;
 import gy.fox.hobnob.HobMod2.utility.LogHelper;
 import net.minecraft.block.Block;
 import net.minecraft.client.audio.SoundManager;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemRecord;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
@@ -55,8 +58,6 @@ public class BlockBakerCat extends BlockHM2 {
             if (world.isBlockIndirectlyGettingPowered(x,y,z) && world.getBlockMetadata(x,y,z)==0) {
                 world.setBlockMetadataWithNotify(x,y,z, 1, 2);
                 LogHelper.info("Metadata 1");
-                //world.playSoundEffect(x, y, z, "hobmod2:baker.cat", 0.2f, 1.0f);
-                world.playRecord("hobmod2:records.rbc",x, y, z);
 
             }
             else if(!world.isBlockIndirectlyGettingPowered(x,y,z)&& world.getBlockMetadata(x,y,z)==1) {
@@ -65,6 +66,12 @@ public class BlockBakerCat extends BlockHM2 {
                 LogHelper.info("Metadata 0");
 
             }
+
+        }
+        if(world.getBlockMetadata(x,y,z)==1)
+        {
+            world.playRecord(("records." + (ModItems.rbc.recordName)),x,y,z);
+            LogHelper.info("Go Music!");
         }
     }
 
