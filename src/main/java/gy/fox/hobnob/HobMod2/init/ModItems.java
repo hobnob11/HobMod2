@@ -9,13 +9,13 @@ import net.minecraft.item.ItemRecord;
 public class ModItems {
 
     public static final ItemHM2 mapleLeaf = new ItemMapleLeaf();
-    public static ItemCustomRecord bakerCatRecord;
+    public static ItemCustomRecord rbc;
 
     @SuppressWarnings("RedundantCast")
     public static void init()
     {
         GameRegistry.registerItem(mapleLeaf, "mapleLeaf");
-        GameRegistry.registerItem(bakerCatRecord = new ItemCustomRecord("bakercat", "Baker Cat :D", new String[]{"Improves productivity 20%!", "Only if you are pusheen"}).setDomain("hobmod2"), "bakercat");
+        GameRegistry.registerItem(rbc = new ItemCustomRecord("rbc", "Baker Cat :D", new String[]{"Improves productivity 20%!", "Only if you are pusheen"}).setDomain("hobmod2"), "rbc");
     }
 
 }

@@ -56,7 +56,7 @@ public class BlockBakerCat extends BlockHM2 {
                 world.setBlockMetadataWithNotify(x,y,z, 1, 2);
                 LogHelper.info("Metadata 1");
                 //world.playSoundEffect(x, y, z, "hobmod2:baker.cat", 0.2f, 1.0f);
-                world.playRecord("hobmod2:records.bakercat",x, y, z);
+                world.playRecord("hobmod2:records.rbc",x, y, z);
 
             }
             else if(!world.isBlockIndirectlyGettingPowered(x,y,z)&& world.getBlockMetadata(x,y,z)==1) {

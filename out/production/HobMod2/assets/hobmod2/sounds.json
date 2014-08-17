@@ -1,8 +1,8 @@
 {
-	"bakercat": {
+	"rbc": {
 		"category": "record",
 		"sounds": [
-			"records/bakercat"
+			"records/rbc"
 			"stream": true
 		]
 	}
