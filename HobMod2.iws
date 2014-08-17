@@ -92,8 +92,8 @@
       <file leaf-file-name="sounds.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hobmod2/sounds.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09476031" vertical-offset="0" max-vertical-offset="897">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.18952063" vertical-offset="0" max-vertical-offset="897">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -1085,8 +1085,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/hobmod2/sounds.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09476031" vertical-offset="0" max-vertical-offset="897">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.18952063" vertical-offset="0" max-vertical-offset="897">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
