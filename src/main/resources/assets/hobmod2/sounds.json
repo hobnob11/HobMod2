@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"records.rbc": {
         "category": "record",
         "sounds": [
@@ -7,5 +8,15 @@
                 "stream": true
             }
         ]
+=======
+	"records.bakercat": {
+		"category": "record",
+		"sounds": [
+			{
+				"records/bakercat"
+				"stream": true
+			}
+		]
+>>>>>>> origin/master
 	}
 }
