@@ -1,22 +1,11 @@
 {
-<<<<<<< HEAD
 	"records.rbc": {
-        "category": "record",
-        "sounds": [
-            {
-                "name": "records/rbc",
-                "stream": true
-            }
-        ]
-=======
-	"records.bakercat": {
 		"category": "record",
 		"sounds": [
 			{
-				"records/bakercat"
+				"records/rbc"
 				"stream": true
 			}
 		]
->>>>>>> origin/master
 	}
 }
