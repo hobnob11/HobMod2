@@ -1,8 +1,9 @@
 {
-	"baker.cat": {
-		"category": "master",
+	"bakercat": {
+		"category": "record",
 		"sounds": [
-			"baker.cat"
+			"records/bakercat"
+			"stream": true
 		]
 	}
 }

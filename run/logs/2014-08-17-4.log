@@ -1,9 +1,9 @@
-[06:45:41] [main/INFO]: Logging in with username & password
-[06:45:45] [main/INFO]: Setting user: hobnob11
-[06:45:46] [Client thread/INFO]: LWJGL Version: 2.9.1
-[06:45:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
-[06:45:53] [Sound Library Loader/INFO]: Sound engine started
-[06:45:54] [Client thread/WARN]: Invalid sounds.json
+[06:41:39] [main/INFO]: Logging in with username & password
+[06:41:43] [main/INFO]: Setting user: hobnob11
+[06:41:44] [Client thread/INFO]: LWJGL Version: 2.9.1
+[06:41:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[06:41:51] [Sound Library Loader/INFO]: Sound engine started
+[06:41:52] [Client thread/WARN]: Invalid sounds.json
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 6 column 5
 	at com.google.gson.internal.Streams.parse(Streams.java:56) ~[Streams.class:?]
 	at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:54) ~[TreeTypeAdapter.class:?]
@@ -44,13 +44,13 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 	at com.google.gson.internal.bind.TypeAdapters$25.read(TypeAdapters.java:642) ~[TypeAdapters$25.class:?]
 	at com.google.gson.internal.Streams.parse(Streams.java:44) ~[Streams.class:?]
 	... 29 more
-[06:45:55] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[06:45:55] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[06:45:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
-[06:45:56] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[06:45:56] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[06:45:57] [Sound Library Loader/INFO]: Sound engine started
-[06:45:58] [Client thread/WARN]: Invalid sounds.json
+[06:41:53] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[06:41:53] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[06:41:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[06:41:54] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[06:41:54] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[06:41:55] [Sound Library Loader/INFO]: Sound engine started
+[06:41:55] [Client thread/WARN]: Invalid sounds.json
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 6 column 5
 	at com.google.gson.internal.Streams.parse(Streams.java:56) ~[Streams.class:?]
 	at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:54) ~[TreeTypeAdapter.class:?]
@@ -94,20 +94,30 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 	at com.google.gson.internal.bind.TypeAdapters$25.read(TypeAdapters.java:642) ~[TypeAdapters$25.class:?]
 	at com.google.gson.internal.Streams.parse(Streams.java:44) ~[Streams.class:?]
 	... 32 more
-[06:46:00] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[06:46:00] [Server thread/INFO]: Generating keypair
-[06:46:01] [Server thread/INFO]: Preparing start region for level 0
-[06:46:01] [Server thread/INFO]: Changing view distance to 12, from 10
-[06:46:01] [Server thread/INFO]: hobnob11[local:E:0a4a009a] logged in with entity id 135 at (1082.503564763465, 4.0, -837.5328018255977)
-[06:46:01] [Server thread/INFO]: hobnob11 joined the game
-[06:46:21] [Server thread/INFO]: Saving and pausing game...
-[06:46:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[06:46:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[06:46:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[06:46:21] [Server thread/INFO]: Stopping server
-[06:46:21] [Server thread/INFO]: Saving players
-[06:46:21] [Server thread/INFO]: Saving worlds
-[06:46:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[06:46:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[06:46:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[06:46:22] [Client thread/INFO]: Stopping!
+[06:41:59] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[06:41:59] [Server thread/INFO]: Generating keypair
+[06:41:59] [Server thread/INFO]: Preparing start region for level 0
+[06:42:00] [Server thread/INFO]: Changing view distance to 12, from 10
+[06:42:00] [Server thread/INFO]: hobnob11[local:E:fcbf2fce] logged in with entity id 146 at (1082.503564763465, 4.0, -837.5328018255977)
+[06:42:00] [Server thread/INFO]: hobnob11 joined the game
+[06:42:01] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@7656bdc2[id=0e919cd1-5c0d-4856-bce8-d36fc1816bad,name=hobnob11,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:53) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:50) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:148) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:133) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [?:1.7.0_67]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [?:1.7.0_67]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_67]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_67]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_67]
