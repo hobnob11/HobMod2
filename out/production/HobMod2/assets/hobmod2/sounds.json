@@ -1,11 +1,11 @@
 {
 	"records.rbc": {
-        "category": "record",
-        "sounds": [
-            {
-                "name": "records/rbc",
-                "stream": true
-            }
-        ]
+		"category": "record",
+		"sounds": [
+			{
+				"name"  :"records/rbc",
+				"stream": true
+			}
+		]
 	}
 }
