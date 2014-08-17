@@ -72,20 +72,126 @@
       <file leaf-file-name="modSounds.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/modSounds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1139">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
-                <element signature="class#294:1230" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockBakerCat.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CustomSound.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/CustomSound.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#3899#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1937#1938#0" expanded="true" />
+                <element signature="e#1968#1969#0" expanded="true" />
+                <element signature="e#2015#2016#0" expanded="true" />
+                <element signature="e#2044#2045#0" expanded="true" />
+                <element signature="e#2092#2093#0" expanded="true" />
+                <element signature="e#2126#2127#0" expanded="true" />
+                <element signature="e#2171#2172#0" expanded="true" />
+                <element signature="e#2200#2201#0" expanded="true" />
+                <element signature="e#2244#2245#0" expanded="true" />
+                <element signature="e#2272#2273#0" expanded="true" />
+                <element signature="e#2316#2317#0" expanded="true" />
+                <element signature="e#2343#2344#0" expanded="true" />
+                <element signature="e#2387#2388#0" expanded="true" />
+                <element signature="e#2414#2415#0" expanded="true" />
+                <element signature="e#2458#2459#0" expanded="true" />
+                <element signature="e#2485#2486#0" expanded="true" />
+                <element signature="e#2549#2550#0" expanded="true" />
+                <element signature="e#2594#2595#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockBakerCat.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/block/BlockBakerCat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.661562" vertical-offset="350" max-vertical-offset="1105">
+            <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1105">
               <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemCustomRecord.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/item/ItemCustomRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1223" max-vertical-offset="2006">
+              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#4204#0" expanded="true" />
+                <element signature="e#1620#1658#0" expanded="true" />
+                <element signature="e#3532#3533#0" expanded="true" />
+                <element signature="e#3565#3566#0" expanded="true" />
+                <element signature="e#3742#3743#0" expanded="true" />
+                <element signature="e#3778#3779#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModItems.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/ModItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46839547" vertical-offset="0" max-vertical-offset="617">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#409#443#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemHM2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/item/ItemHM2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemRecord.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/item/ItemRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/item/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.642857" vertical-offset="0" max-vertical-offset="22525">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -124,7 +230,6 @@
         <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/client/gui/GuiFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/utility/LogHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/item/itemHM2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hobmod2/block/BlockHM2.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hobmod2/block/BlockFlag.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
@@ -141,10 +246,15 @@
         <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/ModBlocks.java" />
         <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/handler/SoundHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/HobMod2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/modSounds.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hobmod2/sounds/sounds.json" />
         <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/block/BlockBakerCat.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/hobmod2/sounds.json" />
+        <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/CustomSound.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/ClientUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/modSounds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/item/ItemBakerCatRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/item/ItemCustomRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/ModItems.java" />
       </list>
     </option>
   </component>
@@ -294,6 +404,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="gy.fox.hobnob.HobMod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HobMod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HobMod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gy.fox.hobnob.HobMod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HobMod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HobMod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gy.fox.hobnob.HobMod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="init" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HobMod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HobMod2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets.hobmod2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
@@ -322,7 +482,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="itemRec&#9;PSI&#9;JAVA://net.minecraft.item.ItemRecord&#10;soundManag&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/client/audio/SoundManager.java&#10;forgeDi&#9;PSI&#9;JAVA://net.minecraftforge.common.util.ForgeDirection&#10;BlockFur&#9;PSI&#9;JAVA://net.minecraft.block.BlockFurnace&#10;setmeta&#9;PSI&#9;JAVA://sun.jdbc.odbc.JdbcOdbcResultSetMetaData&#10;BlockDoor&#9;PSI&#9;JAVA://net.minecraft.block.BlockDoor&#10;blockReds&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/block/BlockRedstoneLight.java&#10;blockRed&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/block/BlockRedstoneLight.java&#10;Spawn_eg&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205.jar!/assets/minecraft/textures/items/spawn_egg.png&#10;itemegg&#9;PSI&#9;JAVA://net.minecraft.item.ItemEgg&#10;BlockLeaves&#9;PSI&#9;JAVA://net.minecraft.block.BlockLeaves&#10;blockOld&#9;PSI&#9;JAVA://net.minecraft.block.BlockOldLeaf&#10;BlockNewLeaf&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/block/BlockNewLeaf.java&#10;oreDic&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraftforge/oredict/OreDictionary.java&#10;blockBed&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/block/BlockBed.java&#10;OreDictionary&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraftforge/oredict/OreDictionary.java&#10;OreDic&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205.jar!/net/minecraftforge/oredict/OreDictionary.class" />
+    <property name="SearchEverywhereHistoryKey" value="item&#9;PSI&#9;JAVA://net.minecraft.item.Item&#10;itemRec&#9;PSI&#9;JAVA://net.minecraft.item.ItemRecord&#10;soundManag&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/client/audio/SoundManager.java&#10;forgeDi&#9;PSI&#9;JAVA://net.minecraftforge.common.util.ForgeDirection&#10;BlockFur&#9;PSI&#9;JAVA://net.minecraft.block.BlockFurnace&#10;setmeta&#9;PSI&#9;JAVA://sun.jdbc.odbc.JdbcOdbcResultSetMetaData&#10;BlockDoor&#9;PSI&#9;JAVA://net.minecraft.block.BlockDoor&#10;blockReds&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/block/BlockRedstoneLight.java&#10;blockRed&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/block/BlockRedstoneLight.java&#10;Spawn_eg&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205.jar!/assets/minecraft/textures/items/spawn_egg.png&#10;itemegg&#9;PSI&#9;JAVA://net.minecraft.item.ItemEgg&#10;BlockLeaves&#9;PSI&#9;JAVA://net.minecraft.block.BlockLeaves&#10;blockOld&#9;PSI&#9;JAVA://net.minecraft.block.BlockOldLeaf&#10;BlockNewLeaf&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/block/BlockNewLeaf.java&#10;oreDic&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraftforge/oredict/OreDictionary.java&#10;blockBed&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/block/BlockBed.java&#10;OreDictionary&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraftforge/oredict/OreDictionary.java&#10;OreDic&#9;FILE&#9;jar://C:/Users/Hobnob/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205.jar!/net/minecraftforge/oredict/OreDictionary.class" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HobMod" />
   </component>
   <component name="RecentsManager">
@@ -610,34 +770,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/block/BlockBed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5321">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/lang/Short.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="286" max-vertical-offset="7072">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/item/ItemAppleGold.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/init/Items.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3128">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraftforge/oredict/OreDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="9384">
@@ -884,13 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraftforge/client/event/sound/SoundSetupEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39917126" vertical-offset="0" max-vertical-offset="724">
@@ -947,29 +1072,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/item/ItemRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/world/World.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="22643" max-vertical-offset="72828">
           <caret line="1427" column="16" selection-start-line="1427" selection-start-column="16" selection-end-line="1427" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/modSounds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="class#294:1230" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,9 +1090,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/block/BlockBakerCat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.661562" vertical-offset="350" max-vertical-offset="1105">
+        <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1105">
           <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/CustomSound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#3899#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#2015#2016#0" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
+            <element signature="e#2092#2093#0" expanded="true" />
+            <element signature="e#2126#2127#0" expanded="true" />
+            <element signature="e#2171#2172#0" expanded="true" />
+            <element signature="e#2200#2201#0" expanded="true" />
+            <element signature="e#2244#2245#0" expanded="true" />
+            <element signature="e#2272#2273#0" expanded="true" />
+            <element signature="e#2316#2317#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2414#2415#0" expanded="true" />
+            <element signature="e#2458#2459#0" expanded="true" />
+            <element signature="e#2485#2486#0" expanded="true" />
+            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/modSounds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1139">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/item/ItemHM2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/item/ItemRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/net/minecraft/item/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.642857" vertical-offset="0" max-vertical-offset="22525">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/item/ItemCustomRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1223" max-vertical-offset="2006">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#4204#0" expanded="true" />
+            <element signature="e#1620#1658#0" expanded="true" />
+            <element signature="e#3532#3533#0" expanded="true" />
+            <element signature="e#3565#3566#0" expanded="true" />
+            <element signature="e#3742#3743#0" expanded="true" />
+            <element signature="e#3778#3779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gy/fox/hobnob/HobMod2/init/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46839547" vertical-offset="0" max-vertical-offset="617">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#409#443#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
