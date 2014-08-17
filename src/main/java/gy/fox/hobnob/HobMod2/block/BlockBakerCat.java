@@ -1,11 +1,14 @@
 package gy.fox.hobnob.HobMod2.block;
 
 import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.eventhandler.Cancelable;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import gy.fox.hobnob.HobMod2.utility.LogHelper;
 import net.minecraft.block.Block;
+import net.minecraft.client.audio.SoundManager;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
@@ -45,20 +48,19 @@ public class BlockBakerCat extends BlockHM2 {
         }
     }
 
-    private boolean powered;
     @Override
-    public void onNeighborBlockChange(World para1_world, int para2, int para3, int para4, Block para5)
+    public void onNeighborBlockChange(World world, int x, int y, int z, Block para5)
     {
         if(FMLCommonHandler.instance().getEffectiveSide() == Side.SERVER) {
-            if (para1_world.isBlockIndirectlyGettingPowered(para2, para3, para4) && !powered) {
-                powered=true;
-                para1_world.setBlockMetadataWithNotify(para2, para3, para4, 1, 2);
+            if (world.isBlockIndirectlyGettingPowered(x,y,z) && world.getBlockMetadata(x,y,z)==0) {
+                world.setBlockMetadataWithNotify(x,y,z, 1, 2);
                 LogHelper.info("Metadata 1");
+                //world.playSoundEffect(x, y, z, "hobmod2:baker.cat", 0.2f, 1.0f);
             }
-            else if(!para1_world.isBlockIndirectlyGettingPowered(para2,para3,para4)&& powered) {
-                powered=false;
-                para1_world.setBlockMetadataWithNotify(para2, para3, para4, 0, 2);
+            else if(!world.isBlockIndirectlyGettingPowered(x,y,z)&& world.getBlockMetadata(x,y,z)==1) {
+                world.setBlockMetadataWithNotify(x,y,z, 0, 2);
                 LogHelper.info("Metadata 0");
+
             }
         }
     }

@@ -11,9 +11,12 @@ import gy.fox.hobnob.HobMod2.handler.HM2EventHandler;
 import gy.fox.hobnob.HobMod2.init.ModBlocks;
 import gy.fox.hobnob.HobMod2.init.ModItems;
 import gy.fox.hobnob.HobMod2.init.Recipes;
+import gy.fox.hobnob.HobMod2.init.modSounds;
 import gy.fox.hobnob.HobMod2.proxy.IProxy;
 import gy.fox.hobnob.HobMod2.reference.Reference;
 import gy.fox.hobnob.HobMod2.utility.LogHelper;
+import net.minecraft.client.audio.SoundManager;
+import net.minecraftforge.client.event.sound.SoundLoadEvent;
 import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid= Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.VERSION, guiFactory=Reference.GUI_FACTORY_CLASS)
@@ -33,10 +36,9 @@ public class HobMod2
         ConfigHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigHandler());
         MinecraftForge.EVENT_BUS.register(new HM2EventHandler());
-
+        MinecraftForge.EVENT_BUS.register(new modSounds());
         ModItems.init();
         ModBlocks.init();
-
         LogHelper.info("Pre initialization Complete!");
 
     }
@@ -54,4 +56,6 @@ public class HobMod2
     {
         LogHelper.info("PostInit Complete!");
     }
+
 }
+
