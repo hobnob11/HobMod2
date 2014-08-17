@@ -9,7 +9,7 @@ import net.minecraft.item.ItemRecord;
 public class ModItems {
 
     public static final ItemHM2 mapleLeaf = new ItemMapleLeaf();
-    public ItemCustomRecord bakerCatRecord;
+    public static ItemCustomRecord bakerCatRecord;
 
     @SuppressWarnings("RedundantCast")
     public static void init()
