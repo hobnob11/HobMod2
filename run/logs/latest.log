@@ -9,3 +9,13 @@
 [08:52:12] [Client thread/INFO]: Created: 512x256 textures/items-atlas
 [08:52:12] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
 [08:52:13] [Sound Library Loader/INFO]: Sound engine started
+[08:52:26] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[08:52:26] [Server thread/INFO]: Generating keypair
+[08:52:26] [Server thread/INFO]: Preparing start region for level 0
+[08:52:27] [Server thread/INFO]: Changing view distance to 12, from 10
+[08:52:27] [Server thread/INFO]: hobnob11[local:E:c5ff4cd9] logged in with entity id 135 at (1086.519044590348, 4.0, -843.5476300316833)
+[08:52:27] [Server thread/INFO]: hobnob11 joined the game
+[08:52:28] [Server thread/INFO]: Saving and pausing game...
+[08:52:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:52:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[08:52:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
