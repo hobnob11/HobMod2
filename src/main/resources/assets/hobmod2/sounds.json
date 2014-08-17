@@ -3,7 +3,7 @@
 		"category": "record",
 		"sounds": [
 			{
-				"records/rbc",
+				"name"  :"records/rbc",
 				"stream": true
 			}
 		]
