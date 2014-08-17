@@ -1,9 +1,11 @@
 {
-	"bakercat": {
+	"records.bakercat": {
 		"category": "record",
 		"sounds": [
-			"records/bakercat"
-			"stream": true
+			{
+				"records/bakercat"
+				"stream": true
+			}
 		]
 	}
 }
