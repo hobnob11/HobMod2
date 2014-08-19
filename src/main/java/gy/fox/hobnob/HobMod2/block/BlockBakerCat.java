@@ -6,8 +6,9 @@ import cpw.mods.fml.common.eventhandler.Cancelable;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import gy.fox.hobnob.HobMod2.HobMod2;
 import gy.fox.hobnob.HobMod2.init.ModItems;
-import gy.fox.hobnob.HobMod2.tileentitys.TileBakerCat;
+import gy.fox.hobnob.HobMod2.te.BakerCatTE;
 import gy.fox.hobnob.HobMod2.utility.LogHelper;
 import net.minecraft.block.Block;
 import net.minecraft.client.audio.SoundManager;
@@ -52,16 +53,31 @@ public class BlockBakerCat extends BlockHM2 {
             return blockIcon;
         }
     }
-
     @Override
-    public void onNeighborBlockChange(World world, int x, int y, int z, Block para5)
+    public boolean hasTileEntity(int meta)
     {
-        
+        return true;
     }
 
-    public TileEntity createTileEntity(World world, int metadata)
+    @Override
+    public TileEntity createTileEntity(World world, int meta)
     {
-        return new TileBakerCat();
+        return new BakerCatTE();
+    }
+
+    @Override
+    public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer entityPlayer,int par1, float par2, float par3, float par4)
+    {
+        entityPlayer.openGui(HobMod2.instance,0,world,x,y,z);
+        return true;
     }
 
 }
+/*
+dis how make sounds work
+world.playAuxSFXAtEntity((EntityPlayer)null, 1005, x,y,z, Item.getIdFromItem(ModItems.rbc));
+dis how stahp sounds
+            world.playRecord(null, x, y, z);
+            world.playAuxSFXAtEntity((EntityPlayer)null, 1005, x,y,z,1005);
+
+ */
