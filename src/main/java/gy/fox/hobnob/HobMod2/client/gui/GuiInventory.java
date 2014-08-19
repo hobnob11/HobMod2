@@ -1,5 +1,6 @@
 package gy.fox.hobnob.HobMod2.client.gui;
 
+import gy.fox.hobnob.HobMod2.inventory.CookieBank;
 import gy.fox.hobnob.HobMod2.reference.Reference;
 import gy.fox.hobnob.HobMod2.te.CookieBankTE;
 import net.minecraft.client.gui.inventory.GuiContainer;
@@ -12,7 +13,7 @@ public class GuiInventory extends GuiContainer
 
     public GuiInventory(InventoryPlayer inventoryPlayer, CookieBankTE cookieBankTE)
     {
-        super(new InventoryTest(InventoryPlayer, CookieBankTE));
+        super(new CookieBank(inventoryPlayer, cookieBankTE));
         xSize = 176;
         ySize = 214;
     }

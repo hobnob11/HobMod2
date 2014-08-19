@@ -3,12 +3,11 @@ package gy.fox.hobnob.HobMod2.inventory;
 import gy.fox.hobnob.HobMod2.te.CookieBankTE;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
-import net.minecraft.inventory.Slot;
+import net.minecraft.inventory.*;
 import net.minecraft.item.ItemStack;
 
-import java.awt.*;
 
-public class CookieBank extends Container
+public class CookieBank extends net.minecraft.inventory.Container
 {
     private CookieBankTE tile;
 
@@ -28,6 +27,7 @@ public class CookieBank extends Container
     private void bindPlayerInventory(InventoryPlayer inventoryPlayer)
     {
         int id = 0; //player inv id
+        int id2 =0;
 
         for(int i =0; i<9; i++)
         {

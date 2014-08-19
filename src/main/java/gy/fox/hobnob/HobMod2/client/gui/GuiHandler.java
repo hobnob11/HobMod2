@@ -1,6 +1,7 @@
 package gy.fox.hobnob.HobMod2.client.gui;
 
 import cpw.mods.fml.common.network.IGuiHandler;
+import gy.fox.hobnob.HobMod2.inventory.CookieBank;
 import gy.fox.hobnob.HobMod2.te.CookieBankTE;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
@@ -15,7 +16,7 @@ public class GuiHandler implements IGuiHandler
         if(ID==1)
         {
             CookieBankTE CookieBankTE = (CookieBankTE) world.getTileEntity(x,y,z);
-            return new InventoryTest(player.inventory, CookieBankTE);
+            return new CookieBank(player.inventory, CookieBankTE);
         }
 
         return null;
