@@ -10,8 +10,8 @@ import gy.fox.hobnob.HobMod2.handler.ConfigHandler;
 import gy.fox.hobnob.HobMod2.handler.HM2EventHandler;
 import gy.fox.hobnob.HobMod2.init.ModBlocks;
 import gy.fox.hobnob.HobMod2.init.ModItems;
+import gy.fox.hobnob.HobMod2.init.ModTileEntitys;
 import gy.fox.hobnob.HobMod2.init.Recipes;
-import gy.fox.hobnob.HobMod2.init.modSounds;
 import gy.fox.hobnob.HobMod2.proxy.IProxy;
 import gy.fox.hobnob.HobMod2.reference.Reference;
 import gy.fox.hobnob.HobMod2.utility.LogHelper;
@@ -36,10 +36,11 @@ public class HobMod2
         ConfigHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigHandler());
         MinecraftForge.EVENT_BUS.register(new HM2EventHandler());
-        MinecraftForge.EVENT_BUS.register(new modSounds());
         ModItems.init();
         ModBlocks.init();
+        ModTileEntitys.init();
         LogHelper.info("Pre initialization Complete!");
+
 
     }
 
