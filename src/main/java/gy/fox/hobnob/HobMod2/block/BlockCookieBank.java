@@ -18,7 +18,8 @@ import net.minecraft.world.World;
 
 public class BlockCookieBank extends BlockContainer
 {
-   protected BlockCookieBank()
+    //this was protected, if it breaks now its ShadowBlades fault
+   public BlockCookieBank()
    {
        super(Material.rock);
        this.setCreativeTab(CreativeTabHM2.HM2_TAB);

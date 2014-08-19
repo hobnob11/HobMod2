@@ -14,6 +14,7 @@ public class CookieBank extends net.minecraft.inventory.Container
     public CookieBank(InventoryPlayer inventory, CookieBankTE CookieBankTE)
     {
         tile = CookieBankTE;
+        bindPlayerInventory(inventory);
     }
 
 

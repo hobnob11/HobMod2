@@ -1,28 +1,89 @@
-[17:16:22] [main/INFO]: Logging in with username & password
-[17:16:26] [main/INFO]: Setting user: hobnob11
-[17:16:27] [Client thread/INFO]: LWJGL Version: 2.9.1
-[17:16:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
-[17:16:34] [Sound Library Loader/INFO]: Sound engine started
-[17:16:36] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[17:16:36] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[17:16:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
-[17:16:37] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[17:16:37] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[17:16:38] [Sound Library Loader/INFO]: Sound engine started
-[17:16:42] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[17:16:42] [Server thread/INFO]: Generating keypair
-[17:16:43] [Server thread/INFO]: Preparing start region for level 0
-[17:16:43] [Server thread/INFO]: Changing view distance to 12, from 10
-[17:16:43] [Server thread/INFO]: hobnob11[local:E:8d51ea1a] logged in with entity id 135 at (1079.9569287976924, 4.0, -833.5120318583675)
-[17:16:43] [Server thread/INFO]: hobnob11 joined the game
-[17:17:21] [Server thread/INFO]: Saving and pausing game...
-[17:17:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:17:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:17:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:17:22] [Server thread/INFO]: Stopping server
-[17:17:22] [Server thread/INFO]: Saving players
-[17:17:22] [Server thread/INFO]: Saving worlds
-[17:17:22] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:17:22] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:17:22] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:17:23] [Client thread/INFO]: Stopping!
+[21:20:17] [main/INFO]: Logging in with username & password
+[21:20:21] [main/INFO]: Setting user: hobnob11
+[21:20:22] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:20:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[21:20:29] [Sound Library Loader/INFO]: Sound engine started
+[21:20:30] [Client thread/ERROR]: Using missing texture, unable to load tile.hobmod2:textures/blocks/BlockCookieBank.png
+java.io.FileNotFoundException: tile.hobmod2:textures/blocks/BlockCookieBank.png
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:592) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:65) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[21:20:30] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[21:20:30] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[21:20:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:HobMod 2.0, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[21:20:31] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[21:20:31] [Client thread/ERROR]: Using missing texture, unable to load tile.hobmod2:textures/blocks/BlockCookieBank.png
+java.io.FileNotFoundException: tile.hobmod2:textures/blocks/BlockCookieBank.png
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:653) [Minecraft.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:596) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:65) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[21:20:32] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[21:20:33] [Sound Library Loader/INFO]: Sound engine started
+[21:20:36] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:20:36] [Server thread/INFO]: Generating keypair
+[21:20:36] [Server thread/INFO]: Preparing start region for level 0
+[21:20:36] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:20:37] [Server thread/INFO]: hobnob11[local:E:45813791] logged in with entity id 138 at (1086.5291418020665, 4.0, -838.5822365139999)
+[21:20:37] [Server thread/INFO]: hobnob11 joined the game
+[21:23:42] [Server thread/INFO]: Saving and pausing game...
+[21:23:42] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:23:42] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:23:42] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:23:43] [Server thread/INFO]: Stopping server
+[21:23:43] [Server thread/INFO]: Saving players
+[21:23:43] [Server thread/INFO]: Saving worlds
+[21:23:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:23:43] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:23:43] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:23:44] [Client thread/INFO]: Stopping!
