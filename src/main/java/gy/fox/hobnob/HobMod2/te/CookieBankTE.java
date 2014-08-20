@@ -3,6 +3,8 @@ package gy.fox.hobnob.HobMod2.te;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.nbt.NBTTagList;
 import net.minecraft.tileentity.TileEntity;
 
 public class CookieBankTE extends TileEntity implements IInventory
@@ -144,5 +146,36 @@ Returns the Inv name, not req.
     {
         //TODO
         return true;
+    }
+
+    @Override
+    public void readFromNBT(NBTTagCompound tagCompound)
+    {
+        NBTTagList tagListInv = (NBTTagList) tagCompound.getTag("inventory");
+        for(int i = 0; i < tagListInv.tagCount(); i++)
+        {
+            NBTTagCompound slot = tagListInv.getCompoundTagAt(i);
+            inventory[slot.getInteger("index")] = ItemStack.loadItemStackFromNBT(slot);
+        }
+        super.readFromNBT(tagCompound);
+    }
+
+    @Override
+    public void writeToNBT(NBTTagCompound tagCompound)
+    {
+        super.writeToNBT(tagCompound);
+
+        NBTTagList tagListInv = new NBTTagList();
+        for (int i = 0; i < inventory.length; ++i)
+        {
+            if (inventory[i] != null)
+            {
+                NBTTagCompound slot = new NBTTagCompound();
+                slot.setInteger("index", i);
+                inventory[i].writeToNBT(slot);
+                tagListInv.appendTag(slot);
+            }
+        }
+        tagCompound.setTag("inventory", tagListInv);
     }
 }
